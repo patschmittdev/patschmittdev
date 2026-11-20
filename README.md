@@ -16,5 +16,3 @@ Lately I've been building with AI agents and trying to figure out how much they 
 
 - [weight-custody-manifest](https://github.com/agentrust-io/weight-custody-manifest): fixes to the attestation and key-release verifiers
 - [chamber](https://github.com/ianphil/chamber): chatroom orchestration, IPC validation, tool allowlists, permission prompts, some UI
-
-Most of my code is still in private repos. I'm going through it and making public what's worth sharing.
