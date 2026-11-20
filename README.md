@@ -4,7 +4,7 @@ Lately I've been building with AI agents and trying to figure out how much they 
 
 **Security findings I reported**
 
-- [GHSA-vwq2-c539-xpr6](https://github.com/agentrust-io/weight-custody-manifest/security/advisories/GHSA-vwq2-c539-xpr6) in weight-custody-manifest: the Azure confidential-VM verifiers checked every signature but never checked that the evidence came from Azure's paravisor, so any SNP or TDX guest that controls REPORT_DATA could satisfy them. Fixed in 0.32.0.
+- [GHSA-vwq2-c539-xpr6](https://github.com/agentrust-io/weight-custody-manifest/security/advisories/GHSA-vwq2-c539-xpr6) in weight-custody-manifest: the Azure confidential-VM verifier checked every signature but never checked that the evidence came from Azure's paravisor, so any SNP guest that controls REPORT_DATA could satisfy it. Fixed in 0.32.0.
 - [CVE-2026-119193](https://github.com/advisories/GHSA-9vw2-f4vp-x7gf) in PHPUnit: other local users could run code through a shared temporary directory used for PHPT code coverage. Fixed in 13.4.4.
 
 **Projects**
